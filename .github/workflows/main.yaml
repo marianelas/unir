@@ -6,9 +6,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     env:
-      AWS_ACCESS_KEY_ID: ${{ ASIAQYMI33YXE7X6Z2NX }}
-      AWS_SECRET_ACCESS_KEY: ${{ 8FkzM7KcMDVCFPilnlpLd8guht7lI3/dK1HaTbvK }}
-      AWS_DEFAULT_REGION: ${{ us-east-1}}
+      AWS_ACCESS_KEY_ID: ASIAQYMI33YXE7X6Z2NX
+      AWS_SECRET_ACCESS_KEY: 8FkzM7KcMDVCFPilnlpLd8guht7lI3/dK1HaTbvK
+      AWS_DEFAULT_REGION: us-east-1
     steps:
       - uses: actions/checkout@v2
       - name: Install Python 3.9
