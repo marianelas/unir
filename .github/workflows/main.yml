@@ -19,6 +19,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install awsebcli
+          eb init
       - name: Deploy to Elastic Beanstalk
         run: |
           eb deploy
