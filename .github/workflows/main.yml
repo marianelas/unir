@@ -29,5 +29,5 @@ jobs:
           eb init --platform node.js --region us-east-1
       - name: Deploy to Elastic Beanstalk
         run: |
-          eb deploy staging
+          eb deploy main
 
