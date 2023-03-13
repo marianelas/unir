@@ -3,9 +3,9 @@ name: Deploy to staging environment
 # only trigger on branch staging
 on:
   push:
-    branches: [ staging ]
+    branches: [ main]
   pull_request:
-    branches: [ staging ]
+    branches: [ main ]
 
 jobs:
   build:
